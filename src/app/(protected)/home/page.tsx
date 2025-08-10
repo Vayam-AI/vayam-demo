@@ -80,10 +80,6 @@ export default function HomePage() {
     <div className="py-8 px-4 sm:px-8 lg:px-24">
       <div className="mb-10">
         <h1 className="text-3xl font-bold mb-2">Welcome to Vayam</h1>
-        <p className="text-lg text-muted-foreground mx-auto">
-          Vayam is a collaborative platform for meaningful conversations and
-          community engagement.
-        </p>
       </div>
 
       {loading && <Loading />}
