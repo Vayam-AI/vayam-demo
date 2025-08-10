@@ -83,17 +83,7 @@ function SignInContent() {
             </div>
           </div>
 
-          {/* Simple Tagline */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3, duration: 0.6 }}
-            className="space-y-4"
-          >
-            <p className="text-xl lg:text-2xl text-neutral-700 dark:text-neutral-300 font-medium">
-              Empowering voices, shaping conversations
-            </p>
-          </motion.div>
+       
         </motion.div>
 
         {/* Right Side - Sign In Form */}
